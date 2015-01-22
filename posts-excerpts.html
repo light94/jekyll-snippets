@@ -1,0 +1,18 @@
+<section>
+  {% for post in site.posts %}
+    <article>
+      <h1>
+        
+        {{ post.title }}
+     
+      </h1>
+      <time>{ post.date | date: "%B %-d, %Y" }}</time><br><br>
+      
+      {{ post.excerpts}}<br><br>  <!--- You can change the 100 to whatever you like -->
+
+
+      <a href="{{post.url}}"><span style="font:bold 20px Tahoma;color:#5C7901">Read More...</span></a>
+
+    </article>
+  {% endfor %}
+</section>
