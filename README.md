@@ -11,8 +11,9 @@ I'm a big fan of Jekyll. I've built [my blog](http://markdotto.com) on it, as we
 - [Series of full posts](posts-full.html) with titles, links, and post body content.
 - [Related posts](posts-related.html) based on time.
 - [List of posts in a category](posts-in-category.html).
-- [Paginated list of posts](http://jekyllrb.com/docs/pagination/).
+- [Paginated posts](posts-pagination.html) with `<span>`s, `<a>`s, classes, and more.
 - [Link to next post](posts-next-post.html).
+- [Reading time](posts-reading-time.html)
 
 ### Pages
 
@@ -21,6 +22,7 @@ I'm a big fan of Jekyll. I've built [my blog](http://markdotto.com) on it, as we
 ### Layout
 
 - [Page title with site title fallback](layout-page-title.html)
+- [Page additional styles](layout-page-style.html) for style exceptions in individual pages.
 
 ### Data
 
